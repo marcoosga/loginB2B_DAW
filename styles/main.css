@@ -9,6 +9,8 @@
     --ligherTertiaryColor: #778DA9;
     --grey: #E0E1DD;
     --white: #ffffff;
+    --mainFont: "Mona Sans";
+    --textFont: "Quicksand";
 }
 
 
@@ -53,7 +55,9 @@
 }
 
 #mainForm > input::placeholder {
+    color: var(--grey);
     font-size: 1.4rem;
+    font-family: var(--mainFont), Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 #mainForm > #signIn {
@@ -64,6 +68,7 @@
     max-width: 10vw;
     width: 100vw;
     border: none;
+    font-family: var(--textFont), Arial, Helvetica, sans-serif;
     font-size: 1.4rem;
     cursor: pointer;
 }
