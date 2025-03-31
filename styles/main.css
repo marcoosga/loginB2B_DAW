@@ -52,12 +52,9 @@
     border: 0.25px solid var(--grey);
     margin: 2%;
     background-color: transparent;
-}
-
-#mainForm > input::placeholder {
     color: var(--grey);
     font-size: 1.4rem;
-    font-family: var(--mainFont), Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-family: var(--mainFont), Arial, "Helvetica Neue", Helvetica, sans-serif;    
 }
 
 #mainForm > #signIn {
@@ -71,4 +68,9 @@
     font-family: var(--textFont), Arial, Helvetica, sans-serif;
     font-size: 1.4rem;
     cursor: pointer;
+    transition: 0.2s all;
+}
+
+#mainForm > #signIn:hover {
+    background-color: rgba(27, 38, 59, 0.75);
 }
