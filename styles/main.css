@@ -1,1 +1,19 @@
 /* Aqui tendremos las variables :root y las importaciones de los diferentes ficheros .css */
+@import url(fonts.css);
+
+/* Variable CSS con los colores de nuestra paleta:https://coolors.co/palette/0d1b2a-1b263b-415a77-778da9-e0e1dd */
+:root {
+    --mainColor: #0D1B2A;
+    --secondaryColor: #1B263B;
+    --tertiaryColor: #415A77;
+    --ligherTertiaryColor: #778DA9;
+    --grey: #E0E1DD;
+    --white: #ffffff;
+}
+
+section {
+    width: 200px;
+    height: 30px;
+    margin: 5px;
+    padding: 10px;
+}
