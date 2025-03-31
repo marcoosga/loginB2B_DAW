@@ -10,10 +10,3 @@
     --grey: #E0E1DD;
     --white: #ffffff;
 }
-
-section {
-    width: 200px;
-    height: 30px;
-    margin: 5px;
-    padding: 10px;
-}
